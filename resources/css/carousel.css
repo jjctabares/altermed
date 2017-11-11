@@ -38,7 +38,7 @@ body {
 .navbar-header .navbar-brand {
   font-family: "Monoton", sans-serif;
   color:white;
-  font-size: 2.5rem;
+  font-size: 1rem;
 }
 
 
@@ -74,13 +74,15 @@ body {
   .carousel .item {
     height: 500px;
     background-color: #777;
+    overflow: hidden;
   }
   .carousel-inner > .item > img {
     position: absolute;
     top: 0;
     left: 0;
     min-width: 100%;
-    height: auto;
+    height:auto;
+    display:block;
   }
 
 
@@ -189,7 +191,7 @@ body {
   .navbar-header .navbar-brand {
     font-family: "Monoton", sans-serif;
     color:white;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -200,6 +202,6 @@ body {
   .navbar-header .navbar-brand {
     font-family: "Monoton", sans-serif;
     color:white;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
